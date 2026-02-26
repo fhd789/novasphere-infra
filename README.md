@@ -5,10 +5,11 @@ Dépôt d'infrastructure de NovaSphere.
 Provisioning via Terraform, configuration via Ansible.
 
 ## Stack
-- Provisioning : Terraform (AWS)
-- Configuration : Ansible
-- Cloud : AWS
-- Image Building : Packer
+- **Provisioning** : Terraform (provider AWS + Proxmox optionnel)
+- **Configuration** : Ansible
+- **Cloud** : AWS (EC2, VPC, Security Groups)
+- **Image Building** : Packer (AMI)
+- **CI/CD** : GitHub Actions (à venir)
 
 ## Structure du dépôt
 À compléter.
